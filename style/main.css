@@ -45,7 +45,9 @@ section:last-of-type{
     float: right;
     width: 50%;
 }
-
+.float > main{
+    overflow: auto;
+}
 .flexbox{
     margin: 1rem 0 2rem;
     display: flex;
