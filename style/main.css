@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Montserrat",sans-serif;
+    font-size: 0.8rem;
+}
+.container{
+    max-width:800px;
+    margin: 2rem auto;
+    padding: 0.5rem;
+}
+h2{
+    font-weight: bold;
+}
+main{
+    background-color: skyblue;
+    padding: 0.5rem;
+    border: 1px solid #666;
+}
+section:first-of-type{
+    background-color: thistle;
+    padding: 0.5rem;
+    border: 1px solid #666;
+}
+section:last-of-type{
+    background-color: turquoise;
+    padding: 0.5rem;
+    border: 1px solid #666;
+}
+.float{
+    margin: 1rem 0 2rem;
+    overflow: auto;
+}
+.float section:first-of-type{
+    float: left;
+    width: 50%;
+}
+.float section:last-of-type{
+    float: right;
+    width: 50%;
+}
+
